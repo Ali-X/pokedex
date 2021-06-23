@@ -1,0 +1,42 @@
+.drawer {
+  padding: 32px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.img {
+  flex: 1.5;
+  height: 400px;
+  object-fit: contain;
+}
+
+.content {
+  flex: 1;
+}
+
+.info {
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 16px;
+  color: grey;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name {
+  text-transform: capitalize;
+}
+
+.graph {
+  margin-top: 16px;
+}
